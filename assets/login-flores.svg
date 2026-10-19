@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="125" y1="0" x2="1124" y2="1037" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DFB981"/>
+      <stop offset=".48" stop-color="#B97151"/>
+      <stop offset="1" stop-color="#173D35"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="415" y1="30" x2="944" y2="1023" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6BF77"/>
+      <stop offset=".46" stop-color="#B34B3C"/>
+      <stop offset="1" stop-color="#682D36"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="527" y1="509" x2="836" y2="1023" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#416C55"/>
+      <stop offset="1" stop-color="#102B28"/>
+    </linearGradient>
+    <pattern id="ikat" width="72" height="88" patternUnits="userSpaceOnUse">
+      <path d="M36 4 67 44 36 84 5 44 36 4Z" stroke="#F6D99A" stroke-opacity=".77" stroke-width="5"/>
+      <path d="M36 20 53 44 36 68 19 44 36 20Z" fill="#E8B765" fill-opacity=".8"/>
+      <path d="M0 12h12M60 76h12" stroke="#FBE8BD" stroke-width="4"/>
+    </pattern>
+    <pattern id="woven" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M0 0h34M0 17h34M0 0v34M17 0v34" stroke="#FFE5AA" stroke-opacity=".14" stroke-width="2"/>
+      <path d="m0 0 17 17L34 0M0 34l17-17 17 17" stroke="#1D372E" stroke-opacity=".22" stroke-width="3"/>
+    </pattern>
+    <filter id="shadow" x="130" y="8" width="1027" height="1039" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1200v1000H0z"/>
+  <circle cx="926" cy="191" r="117" fill="#F5D49A" fill-opacity=".82"/>
+  <path d="M0 586c152-125 278-156 421-87 138 66 242 51 370-58 143-121 254-121 409-30v589H0V586Z" fill="#355D49"/>
+  <path d="M0 714c176-148 329-116 493-41 164 76 294 57 421-23 110-69 192-81 286-33v383H0V714Z" fill="url(#ground)"/>
+  <path d="M0 790c191-46 324 5 462 82 141 78 284 82 436 11 120-55 202-48 302-7v124H0V790Z" fill="#142D28"/>
+  <path d="M0 0h1200v1000H0z" fill="url(#woven)"/>
+  <g opacity=".92" transform="rotate(-10 709 474)">
+    <path d="m538 0 462 12-77 615-349 30L538 0Z" fill="url(#cloth)"/>
+    <path d="m538 0 462 12-77 615-349 30L538 0Z" fill="url(#ikat)" opacity=".9"/>
+    <path d="m575 0 391 10-70 570-294 25L575 0Z" stroke="#F8D798" stroke-opacity=".74" stroke-width="12"/>
+    <path d="m613 1 317 8-63 526-239 21L613 1Z" stroke="#382F2B" stroke-opacity=".54" stroke-width="9"/>
+    <path d="m666 3 218 6-52 454-164 14L666 3Z" fill="#2A3E34" fill-opacity=".47"/>
+    <path d="M572 164 968 175M588 320l360 10M606 477l321 4" stroke="#F8D798" stroke-opacity=".7" stroke-width="13"/>
+    <path d="M580 204l380-2M596 361l336-3M614 520l306-5" stroke="#46312D" stroke-opacity=".55" stroke-width="9"/>
+  </g>
+  <g fill="#E8C17A">
+    <path d="M102 1000c21-131 28-218 8-314 65 81 79 183 75 314h-83Z"/>
+    <path d="M1032 1000c5-142 28-238 97-322-29 131-21 231 4 322h-101Z"/>
+    <path d="M0 890c106-28 202-11 286 38-107-7-192 10-286 41v-79ZM1200 856c-76-5-152 22-224 78 89-27 160-25 224-6v-72Z"/>
+  </g>
+  <path d="M0 0h1200v1000H0z" fill="#08271F" fill-opacity=".1"/>
+  <path d="M0 0h1200v1000H0z" fill="url(#cloth)" opacity=".035"/>
+</svg>

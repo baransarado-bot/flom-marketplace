@@ -1,0 +1,5 @@
+USE db_dinkop;
+
+ALTER TABLE mp_shops
+    ADD COLUMN IF NOT EXISTS facebook_url VARCHAR(255) DEFAULT NULL AFTER phone,
+    ADD COLUMN IF NOT EXISTS instagram_url VARCHAR(255) DEFAULT NULL AFTER facebook_url;

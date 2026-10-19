@@ -1,0 +1,5 @@
+USE db_dinkop;
+
+ALTER TABLE mp_shops
+    ADD COLUMN IF NOT EXISTS logo_path VARCHAR(255) DEFAULT NULL AFTER business_name,
+    ADD COLUMN IF NOT EXISTS kelurahan VARCHAR(120) NOT NULL DEFAULT '' AFTER kecamatan;

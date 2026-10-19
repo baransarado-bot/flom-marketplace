@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Anyaman lontar dan kerajinan Flores Timur</title>
+  <desc id="desc">Ilustrasi keranjang anyaman daun lontar dan ukiran kayu buatan perajin lokal.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#ead6ad"/><stop offset="1" stop-color="#c59b68"/></linearGradient>
+    <linearGradient id="basket" x2="0" y2="1"><stop stop-color="#d9a552"/><stop offset="1" stop-color="#946037"/></linearGradient>
+    <pattern id="weave" width="28" height="22" patternUnits="userSpaceOnUse"><path d="M0 5h28M0 16h28" stroke="#f0d48b" stroke-width="5"/><path d="M7 0v22m14-22v22" stroke="#825635" stroke-width="5" opacity=".8"/></pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#wall)"/>
+  <circle cx="950" cy="164" r="125" fill="#f8e6bd" opacity=".5"/>
+  <path d="M0 615h1200v185H0z" fill="#68452f"/>
+  <path d="M0 662h1200M0 748h1200" stroke="#9b6e48" stroke-width="12"/>
+  <ellipse cx="448" cy="616" rx="263" ry="47" fill="#402e22" opacity=".22"/>
+  <path d="M247 332q201-135 402 0l-37 246q-165 104-328 0z" fill="url(#basket)" stroke="#80552f" stroke-width="12"/>
+  <path d="M252 352q198-126 392 0l-31 218q-166 91-329 0z" fill="url(#weave)"/>
+  <path d="M266 355q182 65 364 0m-376 85q191 63 376 0m-381 78q193 60 382 0m-375 76q185 55 363 0" fill="none" stroke="#f2d289" stroke-width="8" opacity=".85"/>
+  <path d="M264 344q184-119 369 0" fill="none" stroke="#f1cd79" stroke-width="30" stroke-linecap="round"/>
+  <path d="M332 341c-5-139 251-149 253-2" fill="none" stroke="#86572f" stroke-width="19"/>
+  <path d="M759 379h244v217H759z" rx="20" fill="#855537" stroke="#633d29" stroke-width="12"/>
+  <path d="M781 399h200v177H781z" fill="#a97044"/>
+  <path d="m879 420 68 67-68 67-68-67z" fill="none" stroke="#f0cb78" stroke-width="15"/>
+  <path d="M879 445 921 487 879 529 837 487z" fill="#315448"/>
+  <circle cx="879" cy="487" r="13" fill="#efce83"/>
+  <g fill="#59774b"><path d="M782 321c-111-111-159-67-155-26 54 35 103 43 155 26z"/><path d="M815 307c-49-128-2-153 35-128 9 62-6 107-35 128z"/><path d="M939 313c64-122 112-100 112-59-38 52-78 71-112 59z"/></g>
+  <text x="78" y="112" fill="#fff9e9" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="7">KARYA TANGAN LOKAL</text>
+</svg>

@@ -1,0 +1,48 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+flom_db_config.php
+flom-preview-db-config.php
+flom-full-preview-db-config.php
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+google-services.json
+GoogleService-Info.plist
+
+# Local archives, database exports, and generated bundles
+*.zip
+*.sql
+!database_marketplace_hosting.sql
+!database_marketplace_*_migration.sql
+!database_mobile_push_migration.sql
+
+# Locally uploaded images and other media
+/uploads_login/*
+!/uploads_login/.htaccess
+!/uploads_login/index.html
+/uploads_logo/*
+!/uploads_logo/.htaccess
+!/uploads_logo/index.html
+/uploads_produk/*
+!/uploads_produk/.htaccess
+!/uploads_produk/index.html
+/uploads_slide/*
+!/uploads_slide/.htaccess
+!/uploads_slide/index.html
+/uploads_toko/*
+!/uploads_toko/.htaccess
+!/uploads_toko/index.html
+
+# Dependencies and generated tooling output
+/mobile/node_modules/
+/mobile/android/.gradle/
+/mobile/android/local.properties
+/mobile/ios/Pods/
+/mobile/ios/DerivedData/
+/mobile/ios/App/App/GoogleService-Info.plist
+/mobile/android/app/google-services.json

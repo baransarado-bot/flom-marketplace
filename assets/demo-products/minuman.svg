@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Kopi Flores Timur dan sirup kenari</title>
+  <desc id="desc">Ilustrasi kopi lokal dan minuman sirup kenari di suasana pegunungan Flores Timur.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#8bc5b2"/><stop offset="1" stop-color="#f2d89f"/></linearGradient>
+    <linearGradient id="coffee" x2="0" y2="1"><stop stop-color="#9a5730"/><stop offset="1" stop-color="#542c21"/></linearGradient>
+    <linearGradient id="syrup" x2="0" y2="1"><stop stop-color="#ffd96a"/><stop offset="1" stop-color="#e69233"/></linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <circle cx="947" cy="168" r="92" fill="#fff0bd" opacity=".85"/>
+  <path d="m0 460 215-183 144 125 213-246 198 260 163-177 267 206v355H0z" fill="#648b6d"/>
+  <path d="m0 547 225-191 133 121 219-219 173 236 169-134 281 201v239H0z" fill="#385f50"/>
+  <path d="M0 640h1200v160H0z" fill="#6c4935"/>
+  <path d="M0 689h1200M60 757h1100" stroke="#aa7954" stroke-width="12" opacity=".7"/>
+  <ellipse cx="483" cy="572" rx="205" ry="44" fill="#3b2d26" opacity=".23"/>
+  <path d="M338 351h280l-28 198c-5 37-35 64-72 64h-77c-37 0-67-27-72-64z" fill="#fff8e9" stroke="#d9c9a8" stroke-width="10"/>
+  <path d="M365 416h226l-14 131c-4 26-24 45-51 45h-96c-27 0-47-19-51-45z" fill="url(#coffee)"/>
+  <path d="M619 401c110-17 109 137-1 123" fill="none" stroke="#fff8e9" stroke-width="27"/>
+  <ellipse cx="479" cy="415" rx="113" ry="22" fill="#e7c7a1"/>
+  <ellipse cx="479" cy="414" rx="92" ry="14" fill="#7d4127"/>
+  <path d="M451 412c21-26 57-21 70-3-18 16-50 18-70 3z" fill="#f1d9b4"/>
+  <path d="M775 369h147l-17 225c-2 25-20 44-46 44h-20c-26 0-44-19-46-44z" fill="#fff4d7" stroke="#d2b887" stroke-width="9"/>
+  <path d="M790 471h117l-11 122c-2 19-15 31-34 31h-28c-19 0-32-12-34-31z" fill="url(#syrup)"/>
+  <path d="M920 410c66-6 68 99 1 95" fill="none" stroke="#fff4d7" stroke-width="19"/>
+  <path d="m835 335 24-65m0 0-21-27m21 27 28-18" fill="none" stroke="#47704a" stroke-width="10" stroke-linecap="round"/>
+  <g fill="#537846"><ellipse cx="734" cy="367" rx="25" ry="12" transform="rotate(-36 734 367)"/><ellipse cx="962" cy="344" rx="31" ry="13" transform="rotate(30 962 344)"/></g>
+  <text x="78" y="112" fill="#fff9e9" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="8">SEDUHAN LOKAL</text>
+</svg>

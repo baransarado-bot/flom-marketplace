@@ -1,0 +1,9 @@
+Options -Indexes
+
+<FilesMatch "\.(sql|md|zip|log|ini|env)$">
+    Require all denied
+</FilesMatch>
+
+<Files "flom_db_config.php">
+    Require all denied
+</Files>

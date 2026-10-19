@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Jagung titi dan sambal Flores</title>
+  <desc id="desc">Ilustrasi hidangan jagung titi dan sambal khas Flores Timur di atas meja kayu.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5c777"/><stop offset="1" stop-color="#d97543"/></linearGradient>
+    <linearGradient id="plate" x2="0" y2="1"><stop stop-color="#fff8e8"/><stop offset="1" stop-color="#ddcba7"/></linearGradient>
+    <pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M3 4h8M9 12h6" stroke="#9b6027" stroke-width="3" stroke-linecap="round" opacity=".55"/></pattern>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="1020" cy="130" r="190" fill="#ffe9b7" opacity=".28"/>
+  <path d="M0 590 1200 480v320H0z" fill="#70432f"/>
+  <path d="M0 650 1200 540M0 730l1200-120" stroke="#a36a45" stroke-width="10" opacity=".5"/>
+  <ellipse cx="590" cy="522" rx="380" ry="186" fill="#573323" opacity=".24"/>
+  <ellipse cx="570" cy="485" rx="370" ry="178" fill="url(#plate)"/>
+  <ellipse cx="570" cy="478" rx="318" ry="136" fill="#f6e8cb"/>
+  <g fill="#e4b850" stroke="#b57a2c" stroke-width="5">
+    <ellipse cx="384" cy="445" rx="112" ry="42" transform="rotate(13 384 445)"/>
+    <ellipse cx="544" cy="405" rx="120" ry="43" transform="rotate(-8 544 405)"/>
+    <ellipse cx="712" cy="449" rx="115" ry="42" transform="rotate(14 712 449)"/>
+    <ellipse cx="485" cy="519" rx="120" ry="42" transform="rotate(-12 485 519)"/>
+    <ellipse cx="666" cy="530" rx="118" ry="41" transform="rotate(8 666 530)"/>
+  </g>
+  <g fill="url(#grain)" opacity=".9">
+    <ellipse cx="384" cy="445" rx="107" ry="37" transform="rotate(13 384 445)"/>
+    <ellipse cx="544" cy="405" rx="115" ry="38" transform="rotate(-8 544 405)"/>
+    <ellipse cx="712" cy="449" rx="110" ry="37" transform="rotate(14 712 449)"/>
+    <ellipse cx="485" cy="519" rx="115" ry="37" transform="rotate(-12 485 519)"/>
+    <ellipse cx="666" cy="530" rx="113" ry="36" transform="rotate(8 666 530)"/>
+  </g>
+  <path d="M804 432c41-66 131-67 172-2-3 69-48 112-112 109-44-2-67-44-60-107z" fill="#b64228"/>
+  <path d="M824 449c28-33 84-48 128-14m-102 47c34-17 66-20 105-8" fill="none" stroke="#ed9b48" stroke-width="13" stroke-linecap="round"/>
+  <g fill="#407344"><path d="M324 387c-78-49-106-5-103 29 39 18 76 8 103-29z"/><path d="M737 376c42-76 97-56 104-22-19 42-56 57-104 22z"/><path d="M769 549c69-43 99-4 93 31-36 19-69 8-93-31z"/></g>
+  <path d="M135 146h930" stroke="#fff2d1" stroke-width="3" opacity=".45"/>
+  <text x="78" y="112" fill="#fff9e9" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="8">RASA FLORES TIMUR</text>
+</svg>

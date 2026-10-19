@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Tenun ikat Flores Timur</title>
+  <desc id="desc">Ilustrasi kain tenun ikat dengan motif geometris merah, nila, emas, dan putih.</desc>
+  <defs>
+    <linearGradient id="cloth" x2="1" y2="1"><stop stop-color="#193d53"/><stop offset=".5" stop-color="#285c68"/><stop offset="1" stop-color="#112f43"/></linearGradient>
+    <pattern id="weave" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 5h24M0 17h24M5 0v24M17 0v24" stroke="#b7d0c7" stroke-width="2" opacity=".2"/></pattern>
+    <pattern id="motif" width="144" height="144" patternUnits="userSpaceOnUse">
+      <path d="m72 10 42 62-42 62-42-62z" fill="none" stroke="#e4b65b" stroke-width="10"/>
+      <path d="m72 34 25 38-25 38-25-38z" fill="#a94f43" stroke="#f0d48d" stroke-width="5"/>
+      <path d="M72 50 86 72 72 94 58 72z" fill="#e8d9b5"/>
+      <path d="M8 8h25v25H8zm103 103h25v25h-25z" fill="#a94f43" stroke="#e4b65b" stroke-width="5"/>
+      <path d="M0 72h20m104 0h20" stroke="#f1e4c4" stroke-width="7"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#e7d5b5"/>
+  <path d="M0 0h1200v800H0z" fill="#b48c62"/>
+  <path d="M62 72h1076v656H62z" fill="#8b654b" opacity=".35"/>
+  <path d="M108 122 1015 68l81 584-910 73z" fill="#142d3d" opacity=".3"/>
+  <path d="m92 97 914-55 102 595-914 76z" fill="url(#cloth)" stroke="#e5c477" stroke-width="18"/>
+  <path d="m130 135 835-50 79 511-837 67z" fill="url(#motif)"/>
+  <path d="m130 135 835-50 79 511-837 67z" fill="url(#weave)"/>
+  <path d="m92 97 914-55 14 96-912 55zm88 539 914-68 12 64-914 76z" fill="#a3493d"/>
+  <path d="m111 110 867-52 9 22-869 55zm86 550 870-67 6 23-870 70z" fill="none" stroke="#efd18b" stroke-width="9" stroke-dasharray="4 18"/>
+  <path d="M0 747h1200v53H0z" fill="#5e4435"/>
+  <text x="78" y="112" fill="#fff9e9" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="7">TENUN IKAT FLORES TIMUR</text>
+</svg>
