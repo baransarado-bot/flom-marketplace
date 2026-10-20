@@ -82,9 +82,9 @@ Marketplace web tetap berjalan seperti biasa melalui browser PC/laptop. Aplikasi
 6. Untuk transfer, pembeli membayar langsung ke rekening UMKM yang ditampilkan setelah checkout. UMKM mengonfirmasi penerimaan transfer dari dashboard tokonya.
 7. Untuk COD, UMKM menerima pesanan lalu memperbarui status pemrosesan dan pengiriman. Pembeli dapat memeriksa status di `lacak_pesanan.php` menggunakan kode pesanan dan nomor HP.
    Kartu katalog membuka halaman detail produk dengan harga, stok, toko, rating, serta ulasan pembeli. Pembeli hanya dapat mengirim satu ulasan dan rating per produk pesanan setelah status pesanan menjadi **Selesai**; ulasan dikirim pada halaman lacak pesanan menggunakan kode pesanan dan nomor HP checkout.
-8. Pembeli dapat menekan **Chat dengan toko** pada produk untuk bertanya langsung kepada UMKM. Toko membaca dan membalas pesan melalui **Pesan pembeli dan admin** di menu tokonya.
-9. Calon penjual dapat memilih **Tanya admin** pada halaman marketplace, mengisi nama dan nomor HP/WhatsApp, lalu mengirim pertanyaan. Admin membaca dan membalasnya dari menu **Pesan calon penjual / toko**. Penjual yang sudah masuk dapat memulai percakapan dengan admin dari halaman pesan.
-10. Tautan percakapan pembeli dan calon penjual disimpan sebagai cookie aman pada browser yang memulainya. Gunakan browser/perangkat yang sama untuk membuka kembali percakapan; jangan membagikan atau menghapus cookie tersebut sebelum percakapan selesai.
+8. Pembeli dapat menekan **Chat dengan toko** pada produk untuk bertanya langsung kepada UMKM. Toko membaca dan membalas melalui **Pesan pembeli dan admin** di menu tokonya; pesan baru tampil otomatis setiap beberapa detik tanpa memuat ulang halaman.
+9. Calon penjual dapat memilih **Tanya admin** pada halaman marketplace, mengisi nama dan nomor HP/WhatsApp, lalu mengirim pertanyaan. Admin membaca dan membalasnya dari menu **Pesan calon penjual / toko**. Penjual yang sudah masuk dapat memulai percakapan dengan admin dari halaman pesan. Balasan admin dan toko ditampilkan otomatis pada percakapan yang sedang dibuka.
+10. Tampilan inbox dan balon pesan mengikuti pola chat WhatsApp. Pesan tetap dikirim dan disimpan di dalam FLOM Marketplace; fitur ini tidak mengirim pesan ke aplikasi WhatsApp. Tautan percakapan pembeli dan calon penjual disimpan sebagai cookie aman pada browser yang memulainya. Gunakan browser/perangkat yang sama untuk membuka kembali percakapan; jangan membagikan atau menghapus cookie tersebut sebelum percakapan selesai.
 
 ## Batasan versi awal
 
@@ -92,7 +92,7 @@ Marketplace web tetap berjalan seperti biasa melalui browser PC/laptop. Aplikasi
 - Ulasan publik hanya menerima rating dan komentar dari item pesanan yang sudah berstatus selesai. Verifikasi dilakukan dengan kode pesanan dan nomor HP checkout; identitas pembeli tidak ditampilkan pada ulasan.
 - Bukti transfer diverifikasi manual oleh UMKM. Platform tidak menampung dana dan tidak terhubung ke payment gateway.
 - Laporan penjualan menghitung pesanan berstatus selesai, termasuk jumlah pesanan, barang, dan omzet; tanggal penjualan menggunakan waktu terakhir pesanan diperbarui saat diselesaikan.
-- Push notifikasi pesanan dan pendaftaran toko bekerja setelah domain HTTPS, Firebase, file service account, tabel notifikasi, izin perangkat, dan worker terjadwal dikonfigurasi. Pesan inbox belum mengirim notifikasi push atau diperbarui langsung.
+- Push notifikasi pesanan dan pendaftaran toko bekerja setelah domain HTTPS, Firebase, file service account, tabel notifikasi, izin perangkat, dan worker terjadwal dikonfigurasi. Pesan inbox belum mengirim notifikasi push; pesan baru di percakapan yang sedang terbuka diperbarui otomatis tanpa reload.
 - Percakapan tersimpan di inbox dan diperbarui saat halaman pesan dibuka atau dimuat ulang; belum ada notifikasi push atau pembaruan pesan langsung.
 - Gambar slider menerima JPG, PNG, atau WebP dengan ukuran maksimal 5 MB dan resolusi minimum 800 × 300 piksel.
 - Gambar khusus halaman login menerima JPG, PNG, atau WebP dengan ukuran maksimal 5 MB dan resolusi 800 × 600 hingga 5000 × 5000 piksel.
