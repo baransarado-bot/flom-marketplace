@@ -342,7 +342,7 @@ mp_render_flash();
     @media(prefers-reduced-motion:reduce){.chat-conversation-link{transition:none}}
 </style>
 <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
-    <div><span class="badge text-bg-success mb-2">Komunikasi FLOM Marketplace</span><h1 class="h3 fw-bold mb-1">Pesan dan komunikasi</h1><p class="small-muted mb-0">Tanyakan produk kepada toko atau hubungi admin untuk bantuan dan pendaftaran usaha.</p></div>
+    <div><span class="badge text-bg-success mb-2">Komunikasi FLOM Marketplace</span><h1 class="h3 fw-bold mb-1">Pesan dan komunikasi</h1><p class="small-muted mb-0">Chat bergaya WhatsApp dengan balasan langsung. Pesan tetap dikirim di dalam FLOM Marketplace.</p></div>
     <a class="btn btn-outline-secondary" href="marketplace.php"><i class="bi bi-shop me-1"></i>Kembali ke marketplace</a>
 </div>
 <?php if ($error !== ''): ?><div class="alert alert-danger"><?= mp_escape($error) ?></div><?php endif; ?>
@@ -489,7 +489,8 @@ mp_render_flash();
 <?php elseif ($publicShop || $isStartAdmin): ?>
     <section class="card chat-start-form p-4 p-md-5 mb-4">
         <h2 class="h4 fw-bold"><?= $publicShop ? 'Hubungi ' . mp_escape($publicShop['business_name']) : ($sellerLogged ? 'Hubungi admin FLOM Marketplace' : 'Kirim pesan kepada admin') ?></h2>
-        <p class="small-muted"><?= $publicShop ? 'Tanyakan produk, stok, cara pemesanan, atau hal lain langsung kepada toko. Nomor kontak digunakan agar toko dapat menanggapi pesan Anda.' : 'Hubungi admin terkait pendaftaran UMKM/EKRAF, verifikasi toko, atau bantuan penggunaan marketplace.' ?></p>
+        <p class="small-muted"><?= $publicShop ? 'Tanyakan produk, stok, cara pemesanan, atau hal lain langsung kepada toko. Toko membalas Anda di percakapan ini.' : 'Hubungi admin terkait pendaftaran UMKM/EKRAF, verifikasi toko, atau bantuan penggunaan marketplace. Admin membalas Anda di percakapan ini.' ?></p>
+        <div class="alert alert-info small">Chat ini tersimpan dan dibalas di FLOM Marketplace, bukan dikirim langsung ke aplikasi WhatsApp. Nomor HP/WhatsApp digunakan sebagai informasi kontak bila toko atau admin perlu menghubungi Anda.</div>
         <form method="post" class="row g-3">
             <?php mp_render_csrf(); ?>
             <input type="hidden" name="action" value="<?= $publicShop ? 'start_shop' : 'start_admin' ?>">
